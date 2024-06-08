@@ -1,0 +1,70 @@
+.josefin-sans {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  *{
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .p1{
+    font-size: 60px;
+  }
+
+  .div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50vh;
+  }
+
+
+  .btn{
+    font-size: 25px;
+    padding:10px 15px 10px 15px;
+    border:2px solid black;
+    border-radius: 20px;
+    transition: opacity 0.3s;
+    cursor: pointer;
+  }
+
+  #red{
+    background-color: red;
+    color: white;
+  }
+
+  #green{
+    background-color: green;
+    color: white;
+  }
+
+  #blue{
+    background-color: blue;
+    color: white;
+  }
+
+  #random{
+    background-color: whitesmoke;
+    background-image: linear-gradient(to right,red,rgb(0, 255, 0),rgb(0, 0, 255));
+    color: white;
+  }
+
+  .btn:hover{
+    opacity: 0.7;
+  }
+
+  .btn:active{
+    opacity: 0.4;
+  }
